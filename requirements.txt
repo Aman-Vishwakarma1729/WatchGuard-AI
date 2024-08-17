@@ -2,7 +2,7 @@ setuptools
 numpy
 pandas
 matplotlib
-opencv-python
+opencv-python-headless
 pafy
 youtube_dl
 scikit-learn
