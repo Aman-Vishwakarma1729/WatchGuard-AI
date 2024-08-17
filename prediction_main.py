@@ -2,7 +2,7 @@ import os
 from src.pipelines.prediction_pipeine import predict_on_video
 from src.components.data_preprocessing import data_preprocessing
 from tensorflow.keras.models import load_model
-
+import cv2
 
 preprocess = data_preprocessing()
 image_height, image_width,  sequence_length,  DATASET_DIR, classes_list = preprocess.set_dataset_variables()

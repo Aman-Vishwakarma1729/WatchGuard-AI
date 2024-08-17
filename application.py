@@ -4,6 +4,7 @@ from src.components.data_preprocessing import data_preprocessing
 from tensorflow.keras.models import load_model
 import streamlit as st
 import time
+import cv2
 
 
 def main():
