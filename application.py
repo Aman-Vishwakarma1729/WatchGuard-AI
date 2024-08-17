@@ -17,7 +17,7 @@ def main():
                 """, unsafe_allow_html=True)
 
     st.sidebar.title("Navigation")
-    page = st.sidebar.radio("Go to", ["Home", "Watch Demo Video", "About Project"])
+    page = st.sidebar.radio("Go to", ["Home", "Watch Demo Video", "About Project","Download Dataset"])
 
     if page == "Home":
         st.markdown("""
@@ -150,7 +150,33 @@ def main():
         st.markdown("""
                     <center>&copy; 2024 Aman Vishwakarma</center>
                    """, unsafe_allow_html=True)
+        
+    elif page == "Download Dataset":
+        st.markdown("<h1 style='text-align: center; color: white'>Download Dataset</h1>", unsafe_allow_html=True)
+        st.markdown("---")
+        st.markdown("""
+            <p style='color: white'>
+            You can download the dataset for this project from the following sources:
+            </p>
+            <ul>
+                <li><a href="https://github.com/Aman-Vishwakarma1729/WatchGuard-AI/tree/main/data" target="_blank" style='color: #4CAF50'>Download from GitHub</a></li>
+                <h3>OR</h3>
+                <li>Download from Internet</li>
+            </ul>
+        """, unsafe_allow_html=True)
 
+        st.markdown("---")
+        st.markdown("""
+                    <h4 style='text-align: center; color: white'>
+                    For more details about this project, visit the GitHub page.
+                    </h4>
+                    """, unsafe_allow_html=True)
+        st.markdown("""
+                    <h3><center><a href="https://github.com/Aman-Vishwakarma1729/WatchGuard-AI">GitHub</a></center></h3>
+                    """, unsafe_allow_html=True)
+        st.markdown("""
+                    <center>&copy; 2024 Aman Vishwakarma</center>
+                   """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
   main()
