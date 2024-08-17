@@ -1,0 +1,13 @@
+setuptools
+numpy
+pandas
+matplotlib
+opencv-python
+pafy
+youtube_dl
+scikit-learn
+moviepy
+pydot
+IPython
+tensorflow
+streamlit
